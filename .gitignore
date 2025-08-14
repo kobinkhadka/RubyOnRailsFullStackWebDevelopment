@@ -87,4 +87,5 @@ yarn-error.log
 
 # Ignore compiled assets
 /app/assets/builds
+
  .zshrc
