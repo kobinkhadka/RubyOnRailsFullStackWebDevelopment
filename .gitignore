@@ -32,3 +32,58 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+
+# Ignore bundler config
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, and cache
+*.pid
+*.pid.lock
+/cache/*
+/byebug_history
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Ignore dotenv environment variables
+.env
+.env.*
+
+# Ignore node modules
+/node_modules
+
+# Ignore yarn error log
+yarn-error.log
+
+# Ignore coverage reports
+/coverage
+/spec/examples.txt
+
+# Ignore system files
+*.DS_Store
+
+# Ignore IDE/project files
+.idea
+.vscode
+*.swp
+
+# Ignore public system files
+/public/assets
+/public/packs
+/public/packs-test
+/public/system
+/public/uploads
+
+# Ignore compiled assets
+/app/assets/builds
