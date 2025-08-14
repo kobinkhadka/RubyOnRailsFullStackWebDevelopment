@@ -1,7 +1,5 @@
-class HomeController < ApplicationController 
+class HomeController < ApplicationController
   def index
-
-    @name = 'Kobin'
-
+    @name = "Kobin"
   end
 end
